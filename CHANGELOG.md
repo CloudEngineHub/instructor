@@ -7,7 +7,7 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ---
 
-## [1.15.0] - Unreleased
+## [1.15.0] - 2026-04-02
 
 ### Security
 - Pin litellm to `<=1.82.6` to block compromised versions 1.82.7 and 1.82.8 ([#2219](https://github.com/567-labs/instructor/pull/2219))

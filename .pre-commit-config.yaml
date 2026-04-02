@@ -22,7 +22,7 @@ repos:
       - id: uv-sync-check
         name: Verify dependencies can be installed
         entry: uv
-        args: [sync, --check]
+        args: [sync, --check, --all-extras]
         language: system
         files: ^(pyproject\.toml|uv\.lock)$
         pass_filenames: false

@@ -7,7 +7,7 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ---
 
-## [Unreleased] - 1.15.1
+## [1.15.1] - 2026-04-03
 
 ### Security
 - **Bedrock**: Block remote HTTP(S) image URL fetching in `_openai_image_part_to_bedrock` — only `data:` URLs are now accepted, preventing SSRF via user-controlled image URLs

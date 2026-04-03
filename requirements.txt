@@ -6,6 +6,8 @@ aiohttp==3.13.5
     # via instructor (pyproject.toml)
 aiosignal==1.4.0
     # via aiohttp
+annotated-doc==0.0.4
+    # via typer
 annotated-types==0.7.0
     # via pydantic
 anyio==4.12.1
@@ -21,7 +23,7 @@ certifi==2026.2.25
     #   requests
 charset-normalizer==3.4.7
     # via requests
-click==8.1.8
+click==8.3.1
     # via typer
 distro==1.9.0
     # via openai
@@ -69,7 +71,7 @@ pydantic==2.12.5
     # via
     #   instructor (pyproject.toml)
     #   openai
-pydantic-core==2.45.0
+pydantic-core==2.41.5
     # via
     #   instructor (pyproject.toml)
     #   pydantic
@@ -96,7 +98,6 @@ typing-extensions==4.15.0
     #   openai
     #   pydantic
     #   pydantic-core
-    #   typer
     #   typing-inspection
 typing-inspection==0.4.2
     # via pydantic
